@@ -29,7 +29,7 @@ if (formulario) {
       return;
     }
 
-    mensaje.textContent = "¡Gracias, " + nombre + "! Tu solicitud fue registrada como demostración.";
+    mensaje.textContent = "¡Gracias, " + nombre + "! Tu solicitud fue registrada con exito.";
     formulario.reset();
   });
 }

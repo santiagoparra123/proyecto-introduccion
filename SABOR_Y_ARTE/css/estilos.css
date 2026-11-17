@@ -266,18 +266,18 @@ a {
     font-weight: 700;
     color: #237a3b;
 }
-/* Estilos base para las imágenes de la galería */
 
 
-/* Efecto cuando el mouse pasa por encima (hover) */
+
+
 .galeria img:hover {
-    transform: scale(1.05); /* Agranda la imagen un 5% (puedes usar 1.03 para que sea más sutil) */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /* Opcional: agrega una sombra para dar profundidad */
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25); /*  agrega una sombra para dar profundidad */
 }
 
 .galeria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     margin-top: 25px;
 }
