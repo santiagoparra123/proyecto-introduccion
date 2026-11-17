@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas | Sabor & Arte</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <a class="logo" href="../index.html">
+            Sabor <span>&</span> Arte
+        </a>
+        <button
+            class="menu-boton"
+            id="menu-boton"
+            aria-label="Abrir menú"
+            aria-expanded="false">
+            ☰
+        </button>
+        <nav class="navegacion" id="navegacion">
+            <a href="../index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="menu.html">Menú</a>
+            <a href="galeria.html">Galería</a>
+            <a class="boton-nav activo" href="reservas.html">
+                Reservar
+            </a>
+        </nav>
+    </header>
+    <main class="contenido-pagina">
+        <p class="etiqueta">TE ESPERAMOS</p>
+        <h1>Solicita tu reserva</h1>
+        <p>
+            Completa el formulario. Esta versión es una demostración
+            académica y no envía datos a un restaurante real.
+        </p>
+        <form class="formulario" id="form-reserva">
+            <label for="nombre">Nombre completo</label>
+            <input
+                id="nombre"
+                name="nombre"
+                type="text"
+                placeholder="Escribe tu nombre"
+                required
+            >
+            <label for="correo">Correo electrónico</label>
+            <input
+                id="correo"
+                name="correo"
+                type="email"
+                placeholder="ejemplo@correo.com"
+                required
+            >
+            <label for="fecha">Fecha de reserva</label>
+            <input
+                id="fecha"
+                name="fecha"
+                type="date"
+                required
+            >
+            <label for="personas">
+                Número de personas (1 a 10)
+            </label>
+            <input
+                id="personas"
+                name="personas"
+                type="number"
+                min="1"
+                max="10"
+                value="2"
+                required
+            >
+            <label for="hora">Hora preferida</label>
+            <select id="hora" name="hora">
+                <option>12:00 p. m.</option>
+                <option>1:00 p. m.</option>
+                <option>6:00 p. m.</option>
+                <option>7:00 p. m.</option>
+                <option>8:00 p. m.</option>
+            </select>
+            <button class="boton" type="submit">
+                Enviar solicitud
+            </button>
+            <p class="mensaje" id="mensaje" aria-live="polite"></p>
+        </form>
+    </main>
+    <footer class="pie">
+        <a class="logo" href="../index.html">
+            Sabor <span>&</span> Arte
+        </a>
+        <p>
+            © <span id="anio"></span> Sabor & Arte. Proyecto académico.
+        </p>
+    </footer>
+</body>
+</html>

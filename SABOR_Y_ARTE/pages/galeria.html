@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Sabor & Arte</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header class="encabezado">
+        <a class="logo" href="../index.html">
+            Sabor <span>&</span> Arte
+        </a>
+        <button
+            class="menu-boton"
+            id="menu-boton"
+            aria-label="Abrir menú"
+            aria-expanded="false">
+            ☰
+        </button>
+        <nav class="navegacion" id="navegacion">
+            <a href="../index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="menu.html">Menú</a>
+            <a class="activo" href="galeria.html">Galería</a>
+            <a class="boton-nav" href="reservas.html">Reservar</a>
+
+        </nav>
+    </header>
+    <main class="contenido-pagina">
+        <p class="etiqueta">MIRA Y ANTOJATE</p>
+        <h1>Nuestra galería</h1>
+        <p>
+            Algunas imágenes de referencia para presentar nuestros productos.
+        </p>
+        <div class="galeria">
+            <img
+                src="../imagenes/hamburguesa artesanal.avif"
+                alt="Hamburguesa artesanal"
+            >
+            <img
+                src="../imagenes/papas friyas.avif"
+                alt="Papas fritas"
+            >
+            <img
+                src="../imagenes/hamburguesa con queso.avif"
+                alt="Hamburguesa con queso"
+            >
+            <img
+                src="../imagenes/perro caliente.avif"
+                alt="Perro caliente"
+            >
+        </div>
+    </main>
+    <footer class="pie">
+        <a class="logo" href="../index.html">
+            Sabor <span>&</span> Arte
+        </a>
+        <p>
+            © <span id="anio"></span> Sabor & Arte. Proyecto académico.
+        </p>
+    </footer>
+</body>
+</html>

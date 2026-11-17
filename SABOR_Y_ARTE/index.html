@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sabor & Arte: hamburguesas, perros calientes y mucho sabor.">
+  <title>Sabor & Arte | Inicio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="encabezado">
+    <a class="logo" href="index.html">Sabor <span>&</span> Arte</a>
+    <button class="menu-boton" id="menu-boton" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="navegacion" id="navegacion" aria-label="Navegación principal">
+      <a class="activo" href="index.html">Inicio</a>
+      <a href="pages/nosotros.html">Nosotros</a>
+      <a href="pages/menu.html">Menú</a>
+      <a href="pages/galeria.html">Galería</a>
+      <a class="boton-nav" href="pages/reservas.html">Reservar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-contenido">
+        <p class="etiqueta">HECHO CON PASIÓN, SERVIDO CON SABOR</p>
+        <h1>Un sabor que<br><span>te hace volver.</span></h1>
+        <p>Disfruta hamburguesas, perros calientes y acompañamientos preparados al momento.</p>
+        <a class="boton" href="pages/menu.html">Explorar menú</a>
+      </div>
+      <div class="hero-imagen" role="img" aria-label="Hamburguesa artesanal con papas fritas"></div>
+    </section>
+
+    <section class="seccion destacados">
+      <div class="titulo-seccion">
+        <p class="etiqueta">LOS FAVORITOS</p>
+        <h2>Recomendados de la casa</h2>
+        <p>Opciones deliciosas para disfrutar cualquier día.</p>
+      </div>
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <div class="foto-plato hamburguesa" role="img" aria-label="Hamburguesa especial"></div>
+          <div class="tarjeta-info">
+            <h3>Hamburguesa especial</h3>
+            <p>Carne, queso, vegetales frescos y salsa de la casa.</p>
+            <strong>$22.000</strong>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <div class="foto-plato perro" role="img" aria-label="Perro caliente"></div>
+          <div class="tarjeta-info">
+            <h3>Perro caliente</h3>
+            <p>Salchicha, queso, papitas y nuestras salsas.</p>
+            <strong>$16.000</strong>
+          </div>
+        </article>
+        <article class="tarjeta">
+          <div class="foto-plato papas" role="img" aria-label="Papas fritas con acompañamientos"></div>
+          <div class="tarjeta-info">
+            <h3>Papas especiales</h3>
+            <p>Papas crocantes con queso y acompañamientos.</p>
+            <strong>$18.000</strong>
+          </div>
+        </article>
+      </div>
+      <div class="centrado"><a class="boton boton-secundario" href="pages/menu.html">Ver todo el menú</a></div>
+    </section>
+
+    <section class="franja">
+      <div>
+        <p class="etiqueta">UNA EXPERIENCIA DIFERENTE</p>
+        <h2>Buenos momentos<br>comienzan en la mesa.</h2>
+      </div>
+      <a class="boton" href="pages/reservas.html">Reserva tu mesa</a>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <a class="logo" href="index.html">Sabor <span>&</span> Arte</a>
+    <p>© <span id="anio"></span> Sabor & Arte. Proyecto académico de desarrollo web.</p>
+    <p>Villavicencio, Meta · Colombia</p>
+  </footer>
+</body>
+</html>
